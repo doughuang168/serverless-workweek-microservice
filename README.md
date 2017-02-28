@@ -6,7 +6,7 @@ Use AWS resources to create serverless micro-service and host static web pages t
 This repository take existing docker-base micro-services running on AWS EC2 instance and migrate to serverless micro-service.  Original implementation use MEAN stack. Serverless approach will use AWS API Gateway, Lambda, and DynamoDB. The SPA AngularJS app work as micro-service consumer is hosted on AWS S3 and can be viewed [here](http://workweek.s3-website-us-west-2.amazonaws.com/). To help deploy serverless microservices to AWS easily, [claudia](https://github.com/claudiajs/claudia) is used.
 
 ## Architechture Diagram
-![dodgetocat_v2](https://gist.githubusercontent.com/doughuang168/e57c8d65300a95bd7eb2291682fed100/raw/4520ea4dca386fa7925544138cc3ad975d613f30/workweek-serverless-diagram.png
+![serverless_v1](https://gist.githubusercontent.com/doughuang168/e57c8d65300a95bd7eb2291682fed100/raw/4520ea4dca386fa7925544138cc3ad975d613f30/workweek-serverless-diagram.png
 )
 
 
